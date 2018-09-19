@@ -1,0 +1,12 @@
+[package]
+name = "bs-push"
+version = "0.1.0"
+authors = ["Mike Clarke <mike@lambdafunctions.com>"]
+
+[dependencies]
+beanstalkd = "0.4.1"
+
+[dependencies.clap]
+version = "2.32.0"
+default-features = false
+features = ["wrap_help"]
